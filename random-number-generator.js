@@ -31,7 +31,7 @@ while (true) {
             alert("Thats it ╰(*°▽°*)╯ Congrats!!!");
         }
     }
-    if(userAnswer == randomNumber){
+    if (userAnswer == randomNumber) {
         randomNumber = Math.floor(Math.random() * 100) + 1;
     }
 }
